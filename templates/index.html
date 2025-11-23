@@ -1,0 +1,402 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<!-- Hero Section -->
+<section id="home"
+    class="min-vh-100 d-flex align-items-center justify-content-center position-relative overflow-hidden">
+    <div class="container position-relative z-2 text-center">
+        <h1 class="display-3 fw-bold mb-4 animate-up">Innovate <span class="text-gradient">Beyond
+                Boundaries</span></h1>
+        <p class="lead mb-5 text-muted animate-up delay-1">We build digital experiences that <span
+                class="text-white fw-semibold hero-typing"
+                data-text="transform businesses and inspire users."></span><span class="cursor">|</span></p>
+        <div class="d-flex justify-content-center gap-3 animate-up delay-2">
+            <a href="#projects" class="btn btn-primary rounded-pill px-5 py-3 fw-semibold">View
+                Work</a>
+            <a href="#contact" class="btn btn-outline-light rounded-pill px-5 py-3 fw-semibold">Contact Us</a>
+        </div>
+    </div>
+    <!-- Background Elements -->
+    <div class="position-absolute top-0 start-0 w-100 h-100 z-0 pointer-events-none">
+        <div class="bg-gradient-circle top-left"></div>
+        <div class="bg-gradient-circle bottom-right"></div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5 position-relative">
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-5 mb-lg-0 animate-up">
+                <div class="position-relative">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Team working" class="img-fluid rounded-4 shadow-lg position-relative z-2 glass-card p-2">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 bg-primary rounded-4 opacity-10"
+                        style="transform: translate(-20px, -20px);"></div>
+                    <div class="position-absolute bottom-0 end-0 w-100 h-100 bg-secondary rounded-4 opacity-10"
+                        style="transform: translate(20px, 20px);"></div>
+                </div>
+            </div>
+            <div class="col-lg-6 ps-lg-5 animate-up delay-1">
+                <h6 class="text-primary fw-bold text-uppercase mb-3">About Us</h6>
+                <h2 class="display-4 fw-bold mb-4">We Are Innovators in <span class="text-gradient">Digital
+                        Transformation</span></h2>
+                <p class="lead text-muted mb-4">At InnovateHive, we believe in the power of
+                    technology to reshape
+                    businesses. We are a team of passionate developers, designers, and strategists
+                    dedicated to
+                    delivering excellence.</p>
+                <div class="row g-4 mb-4">
+                    <div class="col-6">
+                        <div class="d-flex align-items-center glass p-3 rounded-3">
+                            <div class="icon-box bg-primary-subtle text-primary rounded-circle me-3">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold mb-0 text-white">50+</h5>
+                                <small class="text-muted">Projects Completed</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="d-flex align-items-center glass p-3 rounded-3">
+                            <div class="icon-box bg-secondary-subtle text-secondary rounded-circle me-3">
+                                <i class="fas fa-user-friends"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold mb-0 text-white">20+</h5>
+                                <small class="text-muted">Happy Clients</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#contact" class="btn btn-outline-light rounded-pill px-4">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="py-5">
+    <div class="container py-5">
+        <div class="text-center mb-5 animate-up">
+            <h6 class="text-secondary fw-bold text-uppercase mb-3">Our Services</h6>
+            <h2 class="display-4 fw-bold mb-3">What We <span class="text-gradient">Offer</span></h2>
+            <p class="text-muted col-lg-8 mx-auto">We provide end-to-end digital solutions tailored
+                to your business
+                needs.</p>
+        </div>
+        <div class="row g-4">
+            <!-- Service 1 -->
+            <div class="col-md-6 col-lg-3 animate-up delay-1">
+                <div class="card service-card h-100 border-0 p-4">
+                    <div class="card-body text-center">
+                        <div
+                            class="icon-wrapper mb-4 mx-auto bg-primary-gradient text-white rounded-circle d-flex align-items-center justify-content-center shadow-lg">
+                            <i class="fas fa-code fa-2x"></i>
+                        </div>
+                        <h4 class="card-title fw-bold mb-3 text-white">Web Development</h4>
+                        <p class="card-text text-muted">Custom websites built with modern
+                            technologies like React, Vue,
+                            and Flask for optimal performance.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 2 -->
+            <div class="col-md-6 col-lg-3 animate-up delay-2">
+                <div class="card service-card h-100 border-0 p-4">
+                    <div class="card-body text-center">
+                        <div
+                            class="icon-wrapper mb-4 mx-auto bg-secondary-gradient text-white rounded-circle d-flex align-items-center justify-content-center shadow-lg">
+                            <i class="fas fa-mobile-alt fa-2x"></i>
+                        </div>
+                        <h4 class="card-title fw-bold mb-3 text-white">App Development</h4>
+                        <p class="card-text text-muted">Native and cross-platform mobile
+                            applications that provide
+                            seamless user experiences on iOS and Android.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 3 -->
+            <div class="col-md-6 col-lg-3 animate-up delay-3">
+                <div class="card service-card h-100 border-0 p-4">
+                    <div class="card-body text-center">
+                        <div
+                            class="icon-wrapper mb-4 mx-auto bg-primary-gradient text-white rounded-circle d-flex align-items-center justify-content-center shadow-lg">
+                            <i class="fas fa-brain fa-2x"></i>
+                        </div>
+                        <h4 class="card-title fw-bold mb-3 text-white">AI Solutions</h4>
+                        <p class="card-text text-muted">Leveraging Machine Learning and AI to
+                            automate processes and
+                            provide intelligent insights.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 4 -->
+            <div class="col-md-6 col-lg-3 animate-up delay-1">
+                <div class="card service-card h-100 border-0 p-4">
+                    <div class="card-body text-center">
+                        <div
+                            class="icon-wrapper mb-4 mx-auto bg-secondary-gradient text-white rounded-circle d-flex align-items-center justify-content-center shadow-lg">
+                            <i class="fas fa-paint-brush fa-2x"></i>
+                        </div>
+                        <h4 class="card-title fw-bold mb-3 text-white">UI/UX Design</h4>
+                        <p class="card-text text-muted">User-centric design that combines aesthetics
+                            with functionality
+                            to create engaging digital products.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-5 position-relative">
+    <div class="container py-5 position-relative z-2">
+        <div class="d-flex justify-content-between align-items-end mb-5 animate-up">
+            <div>
+                <h6 class="text-primary fw-bold text-uppercase mb-3">Our Work</h6>
+                <h2 class="display-4 fw-bold">Featured <span class="text-gradient">Projects</span>
+                </h2>
+            </div>
+            <a href="#" class="btn btn-outline-light rounded-pill px-4 d-none d-md-inline-block">View All
+                Projects</a>
+        </div>
+        <div class="row g-4">
+            <!-- Project 1 -->
+            <div class="col-md-4 animate-up delay-1">
+                <div class="project-card position-relative overflow-hidden shadow-lg glass-card">
+                    <img src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Project 1" class="img-fluid w-100 h-100 object-fit-cover">
+                    <div
+                        class="project-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-end p-4">
+                        <h4 class="text-white fw-bold mb-2">E-Commerce Platform</h4>
+                        <p class="text-white-50 mb-0">Web Development / UI Design</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="col-md-4 animate-up delay-2">
+                <div class="project-card position-relative overflow-hidden shadow-lg glass-card">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Project 2" class="img-fluid w-100 h-100 object-fit-cover">
+                    <div
+                        class="project-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-end p-4">
+                        <h4 class="text-white fw-bold mb-2">Healthcare App</h4>
+                        <p class="text-white-50 mb-0">App Development / UX Research</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="col-md-4 animate-up delay-3">
+                <div class="project-card position-relative overflow-hidden shadow-lg glass-card">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Project 3" class="img-fluid w-100 h-100 object-fit-cover">
+                    <div
+                        class="project-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-end p-4">
+                        <h4 class="text-white fw-bold mb-2">Fintech Dashboard</h4>
+                        <p class="text-white-50 mb-0">Web App / Data Visualization</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4 d-md-none animate-up">
+            <a href="#" class="btn btn-outline-light rounded-pill px-4">View All Projects</a>
+        </div>
+    </div>
+</section>
+
+<!-- Blogs Section -->
+<section id="blogs" class="py-5">
+    <div class="container py-5">
+        <div class="text-center mb-5 animate-up">
+            <h6 class="text-secondary fw-bold text-uppercase mb-3">Latest Insights</h6>
+            <h2 class="display-4 fw-bold mb-3">Our <span class="text-gradient">Blogs</span></h2>
+        </div>
+        <div class="row g-4">
+            <!-- Blog 1 -->
+            <div class="col-md-4 animate-up delay-1">
+                <div class="card blog-card h-100 border-0 overflow-hidden rounded-4">
+                    <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        class="card-img-top" alt="Blog 1">
+                    <div class="card-body p-4">
+                        <small class="text-primary fw-bold mb-2 d-block">Technology</small>
+                        <h4 class="card-title fw-bold mb-3"><a href="#" class="text-white text-decoration-none">The
+                                Future of AI in Web
+                                Development</a></h4>
+                        <p class="card-text text-muted">Exploring how Artificial Intelligence is
+                            reshaping the way we build and interact with websites.</p>
+                        <a href="#" class="text-white fw-semibold text-decoration-none mt-3 d-inline-block">Read
+                            More <i class="fas fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Blog 2 -->
+            <div class="col-md-4 animate-up delay-2">
+                <div class="card blog-card h-100 border-0 overflow-hidden rounded-4">
+                    <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        class="card-img-top" alt="Blog 2">
+                    <div class="card-body p-4">
+                        <small class="text-secondary fw-bold mb-2 d-block">Design</small>
+                        <h4 class="card-title fw-bold mb-3"><a href="#" class="text-white text-decoration-none">Web
+                                Design Trends to Watch
+                                in 2025</a></h4>
+                        <p class="card-text text-muted">A look at the emerging trends that will
+                            define the digital landscape in the coming year.</p>
+                        <a href="#" class="text-white fw-semibold text-decoration-none mt-3 d-inline-block">Read
+                            More <i class="fas fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Blog 3 -->
+            <div class="col-md-4 animate-up delay-3">
+                <div class="card blog-card h-100 border-0 overflow-hidden rounded-4">
+                    <img src="https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        class="card-img-top" alt="Blog 3">
+                    <div class="card-body p-4">
+                        <small class="text-primary fw-bold mb-2 d-block">Development</small>
+                        <h4 class="card-title fw-bold mb-3"><a href="#"
+                                class="text-white text-decoration-none">Optimizing React
+                                Applications</a></h4>
+                        <p class="card-text text-muted">Best practices and techniques for building
+                            high-performance React applications.</p>
+                        <a href="#" class="text-white fw-semibold text-decoration-none mt-3 d-inline-block">Read
+                            More <i class="fas fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="py-5">
+    <div class="container py-5">
+        <div class="text-center mb-5 animate-up">
+            <h6 class="text-primary fw-bold text-uppercase mb-3">Testimonials</h6>
+            <h2 class="display-4 fw-bold mb-3">What Our <span class="text-gradient">Clients
+                    Say</span></h2>
+        </div>
+        <div id="testimonialCarousel" class="carousel slide animate-up delay-1" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Testimonial 1 -->
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="card border-0 p-5 rounded-4 text-center position-relative glass-card">
+                                <i
+                                    class="fas fa-quote-left fa-3x text-primary opacity-25 position-absolute top-0 start-0 m-4"></i>
+                                <p class="lead text-muted mb-4 fst-italic">"InnovateHive transformed
+                                    our business with their exceptional web development skills. The
+                                    new platform is faster, more secure, and incredibly
+                                    user-friendly. Highly recommended!"</p>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
+                                        alt="Client 1" class="rounded-circle me-3" width="60" height="60">
+                                    <div class="text-start">
+                                        <h5 class="fw-bold mb-0 text-white">John Doe</h5>
+                                        <small class="text-primary">CEO, TechCorp</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="card border-0 p-5 rounded-4 text-center position-relative glass-card">
+                                <i
+                                    class="fas fa-quote-left fa-3x text-primary opacity-25 position-absolute top-0 start-0 m-4"></i>
+                                <p class="lead text-muted mb-4 fst-italic">"The team at InnovateHive
+                                    is incredibly talented. They understood our vision perfectly and
+                                    delivered a mobile app that exceeded our expectations. Truly a
+                                    partner in success."</p>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
+                                        alt="Client 2" class="rounded-circle me-3" width="60" height="60">
+                                    <div class="text-start">
+                                        <h5 class="fw-bold mb-0 text-white">Jane Smith</h5>
+                                        <small class="text-primary">CTO, FutureSystems</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5 position-relative overflow-hidden">
+    <div class="container py-5 position-relative z-2">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center mb-5 animate-up">
+                <h6 class="text-secondary fw-bold text-uppercase mb-3">Get In Touch</h6>
+                <h2 class="display-4 fw-bold mb-3">Let's Start a <span class="text-gradient">Conversation</span></h2>
+                <p class="text-muted">Have a project in mind? We'd love to hear from you.</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8 animate-up delay-1">
+                <div class="card border-0 p-4 p-md-5 rounded-4 shadow-lg glass-card">
+                    <form>
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Message" id="message"
+                                        style="height: 150px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button type="submit"
+                                    class="btn btn-primary rounded-pill px-5 py-3 fw-bold w-100 w-md-auto">Send
+                                    Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Background Elements -->
+    <div class="position-absolute bottom-0 start-0 w-100 h-100 z-1 pointer-events-none">
+        <div class="bg-gradient-circle top-left opacity-10"></div>
+        <div class="bg-gradient-circle bottom-right opacity-10"></div>
+    </div>
+</section>
+
+{% endblock %}
